@@ -1,0 +1,120 @@
+.footer_block_content {
+	background-color: $footer-grey;
+	padding: 25px 20px 20px 162px;
+	.content-description {
+		font-family: $main-font;
+		vertical-align: top;
+		margin-right: 6%;
+		h4 {
+			margin-bottom: 25px;
+			font-weight: bold;
+			color: $text-grey;
+			font-size: 20px;
+		}
+		.footer_list_description {
+			li {
+				display: list-item;
+				margin-bottom: 5px;
+				a {
+					font-size: 16px;
+					color: #fff;
+					&:hover {
+						text-decoration: underline;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+.footer_bottom {
+	background-color: $footer-dark;
+	padding: 20px 20px 0 162px;
+	.text_block_fot {
+		font-family: $main-font;
+		vertical-align: top;
+		margin-right: 30px;
+		width: 147px;
+		p {
+			color: $text-grey;
+			font-size: 15px;
+		}
+	}
+	.icon_group_social {
+		vertical-align: top;
+		margin-right: 35%;
+		cursor: pointer;
+		.f_soc {
+			background: url("../images/icons/f.png") no-repeat;
+			margin-right: 15px;
+			height: 45px;
+			width: 43px;
+			&:hover {
+				background: url("../images/icons/f_o.png") no-repeat;
+			}
+		}
+		.tw_soc {
+			background: url("../images/icons/tw.png") no-repeat;
+			margin-right: 15px;
+			height: 45px;
+			width: 43px;
+			&:hover {
+				background: url("../images/icons/tw_o.png") no-repeat;
+			}
+		}
+		.g_soc {
+			background: url("../images/icons/g.png") no-repeat;
+			height: 45px;
+			width: 43px;
+			&:hover {
+				background: url("../images/icons/g_o.png") no-repeat;
+			}
+		}
+	}
+}
+.footer_home_text {
+	font-family: $main-font;
+	vertical-align: top;
+	margin-top: 3%;
+	p {
+		font-size: 15px;
+		color: #fff;
+	}
+}
+.copyrtigth {
+	font-family: $main-font;
+	vertical-align: top;
+	margin: 3% 13% 0 10.8%;
+	p {
+		color: $text-grey;
+		font-size: 15px;
+	}
+}
+.footer_help {
+	font-family: $main-font;
+	vertical-align: top;
+	button {
+		width: 288px;
+      	padding: 8px 31px 8px 31px;
+      	background-color: #1bad58;
+      	vertical-align: middle;
+      	letter-spacing: 1px;
+      	text-align: center;
+      	border-right: none; 
+      	border-left: none;
+      	color: $text-grey;
+      	border-top: none;
+      	margin-top: 30px;
+      	font-size: 20px;
+      	&:hover {
+       	 	text-decoration: none;
+        	color: $text-grey;
+      	}
+		.icon_mess {
+			background: url("../images/icons/message_help.png") no-repeat;
+			vertical-align: middle;
+			height: 20px;
+			width: 25px;
+		}
+	}
+}

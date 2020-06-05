@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Unihost</title>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="images/hosting.png">
+
+	<link rel="stylesheet" href="stylesheets/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	<script type="text/javascript" src="js/jquery.tinycarousel.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('#slider1').tinycarousel();
+		});
+	</script>
+
+</head>
+<body>
+	<header>
+		<div class="unihost_header">
+			<div class="container-fluid header_top">
+				<ul class="lang_menu display">
+					<li class="lang_active">
+						<img src="images/icons/en_op.png" alt="img" class="icon_flag display">
+						<a href="#">
+							English
+						</a>
+						<i class="uni_icon_angle display"></i>
+						<ul class="drop_lang_menu">
+							<li>
+								<img src="images/icons/en.png" alt="img_lang" class="vertical">
+								<a href="#">
+									English
+								</a>
+							</li>
+							<li>
+								<img src="images/icons/ru.png" alt="img_lang" class="vertical">
+								<a href="#">
+									Русский
+								</a>
+							</li>
+							<li>
+								<img src="images/icons/uk.png" alt="img_lang" class="vertical">
+								<a href="#">
+									Украинский
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="currency_menu display">
+					<li class="currency_active">
+						<img src="images/icons/uah_op.png" alt="img" class="icon_currency display">
+						<a href="#">
+							uah
+						</a>
+						<i class="uni_icon_angle display"></i>
+						<ul class="drop_currency_menu">
+							<li>
+								<img src="images/icons/usd.png" alt="img_lang" class="vertical">
+								<a href="#">
+									usd
+								</a>
+							</li>
+							<li>
+								<img src="images/icons/rub.png" alt="img_lang" class="vertical">
+								<a href="#">
+									rub
+								</a>
+							</li>
+							<li>
+								<img src="images/icons/eur.png" alt="img_lang" class="vertical">
+								<a href="#">
+									eur
+								</a>
+							</li>
+							<li>
+								<img src="images/icons/uah.png" alt="img_lang" class="vertical">
+								<a href="#">
+									uah
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<a href="#" class="sign_in btn_marg display">
+					<i class="fa fa-caret-right icon_sign display"></i>
+					<span>
+						Sign in
+					</span>
+				</a>
+				<a href="#" class="reg_btn display">
+					<i class="icon_reg display"></i>
+					<span>
+						Register
+					</span>
+				</a>
+				<a href="#" class="cart_btn display">
+					<i class="fa fa fa-shopping-cart icon_cart display"></i>
+					<span>
+						Cart (0)
+					</span>
+				</a>
+			</div>
+			<div class="container-fluid middle_header">
+				<div class="logotype display">
+					<img src="images/logotype.png" alt="logo">
+				</div>
+				<ul class="contact_list display">
+					<li class="phone_active">
+						<i class="icon_phone display"></i>
+						UA: +38 (044)
+						<span class="text_bold display">
+							221-59-76	
+						</span>
+						<i class="icon_angle_down display"></i>
+						<ul class="contact_drop_list">
+							<li>
+								<i class="icon_phone_active display"></i>
+								UK: +44 (20) 
+								<span class="text_bold display">
+									3769-01-63
+								</span>
+							</li>
+							<li>
+								<i class="icon_phone_active display"></i>
+								RU: +7 (449)
+								<span class="text_bold display">
+									403-33-53
+								</span>								
+							</li>
+							<li>
+								<i class="icon_skype_active display"></i>
+								(Calls Only)
+								<span class="text_bold display">
+									sip.unihost Skype
+								</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<button type="button" class="navbar-toggle">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+			<nav id="navbar" class="container-fluid header_bottom">
+				<ul class="main_heared_menu">
+					<li>
+						<a href="#">
+							Hosting
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							VPS
+						</a>
+					</li>
+					<li  class="active_main_menu">
+						<a href="#">
+							Dedicated
+						</a>
+						<ul class="drop_main_active">
+							<li>
+								<a href="#">
+									<span class="text_bold">
+										Dedicated Servers
+									</span>
+									<p class="text_drop">
+										List of All Avalilable Servers
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="text_bold">
+										Server in Germany
+									</span>
+									<p class="text_drop">
+										List of All Avalilable Servers
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="text_bold">
+										Server in Canada
+									</span>
+									<p class="text_drop">
+										List of All Avalilable Servers
+									</p>
+								</a>
+							</li>
+							<li class="drop_last_element">
+								<a href="#">
+									<span class="text_bold">
+										Control Panel
+									</span>
+									<p class="text_drop">
+										ISPmanager and cPanel
+									</p>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">
+							Domains
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							SSL
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Partners
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Contacts
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="fotorama" data-nav="dots" data-loop="true" data-autoplay="3000">
+			<a href="#" data-caption="
+				<div class='caption'>
+					<h2>
+						Server in Canada with no setup fee
+					</h2>
+					<h3>
+						Professional DDos protection for free!
+					</h3>
+					<ul>
+						<li>
+							<span>
+								Servers are located in Germany, France, Canada and Ukraine
+							</span>
+						</li>
+						<li>
+							<span>
+								Professional Anti-DDoS in France and Canada
+							</span>
+						</li>
+						<li>
+							<span>
+								Help with servers administration nd 24/7 support
+							</span>
+						</li>
+						<li>
+							<span>
+								Setting up an individual configuration for your needs
+							</span>
+						</li>
+					</ul>
+					<p>
+						With no setup fee until June 30.2015
+					</p>
+					<button>
+						Choose Your Server
+					</button>
+				</div>">
+				<img src="images/slide1.png" alt="slider" width="600" height="128">
+			</a>
+			<a href="#" data-caption="
+				<div class='caption dark'>
+					<h2>
+						Server in Canada with no setup fee
+					</h2>
+					<h3>
+						Professional DDos protection for free!
+					</h3>
+					<ul>
+						<li>
+							<span>
+								Servers are located in Germany, France, Canada and Ukraine
+							</span>
+						</li>
+						<li>
+							<span>
+								Professional Anti-DDoS in France and Canada
+							</span>
+						</li>
+						<li>
+							<span>
+								Help with servers administration nd 24/7 support
+							</span>
+						</li>
+						<li>
+						 	<span>
+								Setting up an individual configuration for your needs
+						 	</span>
+						</li>
+					</ul>
+					<p>
+						With no setup fee until June 30.2015
+					</p>
+					<button>
+						Choose Your Server
+					</button>
+				</div>">
+				<img src="images/slide2.png" alt="slider" width="600" height="128">
+			</a>
+			<a href="#" data-caption="
+				<div class='caption'>
+					<h2>
+						Server in Canada with no setup fee
+					</h2>
+					<h3>
+						Professional DDos protection for free!
+					</h3>
+					<ul>
+						<li>
+							<span>
+								Servers are located in Germany, France, Canada and Ukraine
+							</span>
+						</li>
+						<li>
+							<span>
+								Professional Anti-DDoS in France and Canada
+							</span>
+						</li>
+						<li>
+							<span>
+								Help with servers administration nd 24/7 support
+							</span>
+						</li>
+						<li>
+							<span>
+								Setting up an individual configuration for your needs
+							</span>
+						</li>
+					</ul>
+					<p>
+						With no setup fee until June 30.2015
+					</p>
+					<button>
+						Choose Your Server
+					</button>
+				</div>">
+				<img src="images/slide1.png" alt="slider" width="600" height="128">
+			</a>
+			<a href="#" data-caption="
+				<div class='caption dark'>
+					<h2>
+						Server in Canada with no setup fee
+					</h2>
+					<h3>
+						Professional DDos protection for free!
+					</h3>
+					<ul>
+						<li>
+							<span>
+								Servers are located in Germany, France, Canada and Ukraine
+							</span>
+						</li>
+						<li>
+							<span>
+								Professional Anti-DDoS in France and Canada
+							</span>
+						</li>
+						<li>
+							<span>
+								Help with servers administration nd 24/7 support
+							</span>
+						</li>
+						<li>
+						 	<span>
+								Setting up an individual configuration for your needs
+						 	</span>
+						</li>
+					</ul>
+					<p>
+						With no setup fee until June 30.2015
+					</p>
+					<button>
+						Choose Your Server
+					</button>
+				</div>">
+				<img src="images/slide2.png" alt="slider" width="600" height="128">
+			</a>
+		</div>
+		<div class="price_block_content">
+			<div class="hosting_vps_server first_block_content display">
+				<img src="images/hosting.png" alt="hosting">
+				<h3>
+					Hosting
+				</h3>
+				<p class="hosting_text">
+					Reliable hosting for personal blogs, corporate websites and online stores.
+				</p>
+				<p class="price_text">
+					From
+					<span class="price_number">
+						23.76
+					</span>
+					<span class="current_text">
+						UAH/mo
+					</span>
+				</p>
+				<a href="#">
+					View plans
+				</a>
+			</div>
+			<div class="containre-fluid hosting_vps_server uni_blocks_content display">
+				<img src="images/vps.png" alt="hosting">
+				<h3>
+					VPS
+				</h3>
+				<p class="vps_text">
+					Get the dedicated server functionality without extra costs!
+				</p>
+				<p class="price_text">
+					From
+					<span class="price_number">
+						168.00
+					</span>
+					<span class="current_text">
+						UAH/mo
+					</span>
+				</p>
+				<a>
+					View plans
+				</a>
+			</div>
+			<div class="hosting_vps_server uni_blocks_content display">
+				<img src="images/server.png" alt="hosting">
+				<h3>
+					Server
+				</h3>
+				<p class="server_text">
+					Powerful and reliable didedicated servers in the best datacenters.
+				</p>
+				<p class="price_text">
+					From
+					<span class="price_number">
+						852.00
+					</span>
+					<span class="current_text">
+						UAH/mo
+					</span>
+				</p>
+				<a>
+					View plans
+				</a>
+			</div>
+		</div>
+		<div class="container-fluid feedback_block">
+			<div class="slider_feedback display">
+				<h3>
+					What do people say about Unihost.com:
+				</h3>
+				<div class="fotorama feedback" data-nav="dots" data-loop="true" data-autoplay="3000">
+					<a href="#">
+						<img src="images/slide_feedback.png" alt="slide" width="600" height="128">
+					</a>
+					<a href="#">
+						<img src="images/slide_feedback.png" alt="slide" width="600" height="128">
+					</a>
+				</div>
+			</div>
+			<div class="choose_block display">
+				<h3>
+					Why choose us:
+				</h3>
+				<img src="images/icons/!.png" alt="!" class="display">
+				<img src="images/icons/yes.png" alt="yes" class="display">
+				<p>
+					Responsive 24/7 support
+				</p>
+				<img src="images/icons/yes.png" alt="yes" class="display">
+				<p class="w_text">
+					Only reliable server hardware
+				</p>
+				<img src="images/icons/yes.png" alt="yes" class="display">
+				<p>
+					More then 100 000 sites using our hosting
+				</p>
+				<img src="images/icons/yes.png" alt="yes" class="display">
+				<p>
+					Our purpose is to provide the best service
+				</p>
+			</div>
+		</div>
+		<div class="container-fluid news_block">
+			<h3>
+				News Releases:
+			</h3>
+			<div class="news_img display">
+				<img src="images/yahoo_finance.png" alt="Yahoo">
+			</div>
+			<div class="news_img display">
+				<img src="images/cnbc.png" alt="CNBC">
+			</div>
+			<div class="news_img display">
+				<img src="images/journals.png" alt="Journals">
+			</div>
+			<div class="news_img display">
+				<img src="images/boston.png" alt="Boston">
+			</div>
+			<div class="news_img display">
+				<img src="images/business.png" alt="Business">
+			</div>
+		</div>
+		<div class="container-fluid services">
+			<h3>
+				We offer the following services:
+			</h3>
+			<div class="services_description">
+				<a href="#" class="btn_serv display">
+					Shared Web hosting
+				</a>
+				<p class="display">
+					By ordering one of our hosting plans, you get a qualitative and reliable service at an affordable price. Our servers are based on high technological original equipment with powerful Intel Xeon processors, which increasing performance and reliability of servers, as well as to provide you with the best web hosting plans. 
+					<a href="#">
+						Link in text
+					</a>
+				</p>
+			</div>
+			<div class="services_description color_block">
+				<a href="#" class="btn_serv display">
+					VPS / VDS hosting
+				</a>
+				<p class="display">
+					All virtual servers plans are designed by our experts based on years of experience and modern equipment requirements. By ordering one of VPS hosting plan at Unihost.com, you get a powerful virtual machine, independence from other users and the ability to host unlimited domains, sites and databases.					
+				</p>
+			</div>
+			<div class="services_description">
+				<a href="#" class="btn_serv display">
+					Dedicated servers 
+				</a>
+				<p class="display">
+					Unihost.com company offers a great variety of physical servers in secure data centers around the world. Configurations of dedicated servers are made to satisfy your needs in hosting even if you are the most demanding customer! Reliable equipment, high-speed communication channels, responsible staff — everything is possible with our dedicated server plans.					
+				</p>
+			</div>
+			<div class="services_description color_block">
+				<a href="#" class="btn_serv display">
+					Domain Registration
+				</a>
+				<p  class="display pad">
+					Domain registration at Unihost.com is a qualitative, reliable and affordable service. When registering your domains with us, you get a free access to the domain and hosting control panel where you can easily customize your mailboxes, domains redirection, create new subdomains and much more. 
+					<a href=""> 
+						Link in text
+					</a>. 
+					Placing the domain on our DNS servers increases the safety of your websites because our DNS servers are located in different countries. You can easily transfer your domains from another registrar to us, and our technical support is always happy to help you.
+				</p>
+			</div>
+			<div class="services_description">
+				<a href="#" class="btn_serv display">
+					SSL Certification
+				</a>
+				<p class="display">
+					Unihost.com company offers a great variety of physical servers in secure data centers around the world. Configurations of dedicated servers are made to satisfy your needs in hosting even if you are the most demanding customer! Reliable equipment, high-speed communication channels, responsible staff — everything is possible with our dedicated server plans.					
+				</p>
+			</div>
+			<div class="services_description color_block">
+				<a href="#" class="btn_serv display">
+					The control panel
+				</a>
+				<p class="display">
+					The web hosting company Unihost.com is a supplier of various software needed for convenient and safe use of hosting services and server rent. We offer a great variety of control panels, virtualization systems, operating systems and database management systems at competitive prices, thanks to the cooperation with international software vendors such as Microsoft, cPanel, ISPsystem etc.
+				</p>
+			</div>
+			<h3>
+				We offer the following services:
+			</h3>
+			<div class="services_description">
+				<div id="slider1">
+				<a class="buttons prev" href="#">&#60;</a>
+					<div class="viewport">
+						<ul class="overview">
+							<li>
+								<img src="images/paypal-op.png" alt="paypal-img" class="paypal"/>
+							</li>
+							<li>
+								<img src="images/bitcoin-op.png" alt="bitcoin-img"  class="bitcoin"/>
+							</li>
+							<li>
+								<img src="images/web-money-op.png" alt="web-money-img" class="webmoney" />
+							</li>
+							<li>
+								<img src="images/perfect-owerlay.png" alt="perfect-img" class="perfect"/>
+							</li>
+							<li>
+								<img src="images/okpal-op.png" alt="okpay-img" class="okpal"/>
+							</li>
+						</ul>
+					</div>
+					<a class="buttons next" href="#">&#62;</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container-fluid footer_block_content">
+			<div class="content-description display">
+				<h4>
+					All products
+				</h4>
+				<ul class="footer_list_description">
+					<li>
+						<a href="#">
+							Hosting
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							VPS Hosting							
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Dedicated Server
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Domains
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							SSL Certifivates
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Control Panels
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content-description display">
+				<h4>
+					Company
+				</h4>
+				<ul class="footer_list_description">
+					<li>
+						<a href="#">
+							About Us
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Contacts						
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Payment Methods
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							How to Become Our
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Client
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Archive of Special Offers
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Jobs
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content-description display">
+				<h4>
+					24/7 Support
+ 				</h4>
+				<ul class="footer_list_description">
+					<li>
+						<a href="#">
+							Work Regulations
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Server Administration							
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Website Transfers
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Contact Support
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content-description display">
+				<h4>
+					Partnership
+				</h4>
+				<ul class="footer_list_description">
+					<li>
+						<a href="#">
+							Referral Program
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content-description display">
+				<h4>
+					Documents
+				</h4>
+				<ul class="footer_list_description">
+					<li>
+						<a href="#">
+							Public Offer
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Terms of Service							
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Privacy Policy
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Money Back Guarantee
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Service level agreement
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container-fluid footer_bottom">
+			<div class="text_block_fot display">
+				<p>
+					Do not miss the most favorable offers
+				</p>
+			</div>
+			<div class="icon_group_social display">
+				<a href="#">
+					<i class="fa f_soc"></i>
+				</a>
+				<a href="#">
+					<i class="fa tw_soc"></i>
+				</a>
+				<a href="#">
+					<i class="fa g_soc"></i>
+				</a>
+			</div>
+			<ul class="contact_list display">
+				<li class="phone_active">
+					<i class="icon_phone display"></i>
+					UA: +38 (044)
+					<span class="text_bold display">
+						221-59-76	
+					</span>
+					<i class="icon_angle_down display"></i>
+					<ul class="contact_drop_list">
+						<li>
+							<i class="icon_phone_active display"></i>
+							UK: +44 (20) 
+							<span class="text_bold display">
+								3769-01-63
+							</span>
+						</li>
+						<li>
+							<i class="icon_phone_active display"></i>
+							RU: +7 (449)
+							<span class="text_bold display">
+								403-33-53
+							</span>								
+						</li>
+						<li>
+							<i class="icon_skype_active display"></i>
+							(Calls Only)
+							<span class="text_bold display">
+								sip.unihost Skype
+							</span>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<div class="footer_home_text display">
+				<p>
+					Home All for you site!
+				</p>
+			</div>
+			<div class="copyrtigth display">
+				<p>
+					Copyright &copy; 2007 - 2015 Professional hosting service unihost.com
+				</p>
+			</div>
+			<div class="footer_help display">
+				<button>
+					<i class="fa icon_mess"></i>
+					I'm here to help you
+				</button>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

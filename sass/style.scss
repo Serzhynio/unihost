@@ -1,0 +1,25 @@
+$main-font: "Roboto", sans-serif;
+$header-color: #eaecf0;
+$footer-grey: #4c5465;
+$footer-dark: #373e4e; 
+$hover-blue: #1d9fcb;
+$main-green: #1bad58;
+$dark-green: #0b9043;
+$dark-blue: #0085b6;
+$main-blue: #1394bf;
+$turquoise: #f1fcfe;
+$text-grey: #c6c9d2;
+$bluish: #59d5ff;
+
+html, body {
+  padding: 0px;
+  margin: 0px; 
+}
+
+@import "partials/responsive";
+@import "partials/helpers";
+@import "partials/footer";
+@import "partials/header";
+@import "partials/mobile";
+@import "partials/main";
+@import "compass/reset";

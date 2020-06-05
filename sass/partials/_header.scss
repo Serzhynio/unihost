@@ -1,0 +1,343 @@
+//HEADER
+/*HEADER*/
+
+.header_top {
+	background-color: $header-color;
+	.lang_menu {
+		vertical-align: middle;
+		position: relative;
+		margin-right: 5.8%;
+		margin-left: 10.3%;
+		width: 110px;
+		.lang_active {
+			border-bottom: 4px solid transparent;
+			padding: 10px 5px 7px 5px;
+			font-family: $main-font;
+			font-size: 16px;
+			.icon_flag {
+				vertical-align: bottom;
+			}
+			a {
+				letter-spacing: 0.3px;
+				padding-left: 5px;
+				color: #626771;
+				&:hover {
+          			text-decoration: none;
+        		}
+			}
+			&:hover {
+				border-bottom: 4px solid $bluish;
+				background-color: $main-blue;
+				a {
+					text-decoration: none;
+					color: #fff;
+				}
+				ul {
+					display: block;
+				}
+				.icon_flag {
+					background: url("../images/icons/en.png") no-repeat;
+					vertical-align: bottom;
+				}
+				.uni_icon_angle { 
+					background: url("../images/icons/angle-up.png") no-repeat 50% 50%;
+				}
+			}
+		}
+		.drop_lang_menu {
+			background-color: $dark-blue;
+			position: absolute;
+			display: none;
+			width: 132px;
+  			left: 0px;
+			top: 37px;
+			li {
+				padding: 10px 5px 10px 5px;
+				font-family: $main-font;
+				cursor: pointer;
+				font-size: 15px;
+				a {
+					padding-left: 5px;
+					color: #fff;
+					&:hover {
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+				&:hover {
+					background-color: $hover-blue;
+				}
+			}
+		}
+	}
+	.currency_menu {
+		vertical-align: middle;
+		position: relative;
+		width: 104px;
+		.currency_active {
+			border-bottom: 4px solid transparent;
+			padding: 10px 5px 7px 5px;
+			font-family: $main-font;
+			font-size: 16px;
+			.icon_currency {
+				vertical-align: bottom;
+			}
+			a {
+				text-transform: uppercase;
+				padding: 0 1px 0 5px;
+				color: #626771;
+				&:hover {
+          			text-decoration: none;
+        		}
+			}
+			&:hover {
+				border-bottom: 4px solid $bluish;
+				background-color: $main-blue;
+				a {
+					text-decoration: none;
+					color: #fff;
+				}
+				ul {
+					display: block;
+				}
+				.icon_currency {
+					background:  url("../images/icons/uah.png") no-repeat;
+					vertical-align: bottom;
+				}
+				.uni_icon_angle { 
+					background: url("../images/icons/angle-up.png") no-repeat 50% 50%;
+				}
+			}
+		}
+		.drop_currency_menu {
+			background-color: $dark-blue;
+			position: absolute;
+			display: none;
+			width: 104px;
+  			left: 0px;
+			top: 37px;
+			li {
+				padding: 10px 5px 10px 5px;
+				font-family: $main-font;
+				font-size: 15px;
+				cursor: pointer;
+				a {
+					text-transform: uppercase;
+					padding-left: 5px;
+					color: #fff;
+					&:hover {
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+				&:hover {
+					background-color: $hover-blue;
+				}
+			}
+		}
+	}
+	.sign_in {
+		padding: 3px 9px 6px 5px;
+  		font-family: $main-font;
+  		vertical-align: middle;
+  		text-decoration: none;
+  		margin-right: 19px;
+	  	background: none;
+  		cursor: pointer;
+  		font-size: 16px;
+  		color: #626771;
+	  	outline: none;
+  		border: none;
+  		width: 93px;
+		.icon_sign {
+  			vertical-align: sub;
+  			padding-right: 4px;
+  			font-size: 32px;
+			color: #BEBEBE;
+		}
+		&:hover {
+			background-color: $main-blue;
+			text-decoration: none;
+			cursor: pointer;
+			outline: none;
+			color: #fff;
+			.icon_sign {
+				color: #fff;
+			}
+		}
+	}
+	.btn_marg {
+		margin-left: 32.4%;
+	}
+	.reg_btn {
+		padding: 9px 9px 7px 5px;
+  		font-family: $main-font;
+  		vertical-align: middle;
+		letter-spacing: 0.2px;
+  		margin-right: 15px;
+	  	background: none;
+  		cursor: pointer;
+  		font-size: 16px;
+  		color: #626771;
+	  	outline: none;
+  		border: none;
+  		width: 104px;
+		.icon_reg {
+		  	background: url("../images/icons/register.png") no-repeat;
+  			vertical-align: inherit;
+  			height: 25px;
+  			width: 20px;
+		}
+		&:hover {
+			background: $main-blue;
+			text-decoration: none;
+			cursor: pointer;
+			outline: none;
+			color: #fff;
+			.icon_reg {
+				background: url("../images/icons/register_hover.png") no-repeat;
+			}
+		}
+	}
+	.cart_btn {
+		padding: 4px 9px 2px 5px;
+  		font-family: $main-font;
+  		vertical-align: middle;
+		letter-spacing: 0.2px;
+	  	background: none;
+  		cursor: pointer;
+  		font-size: 16px;
+  		color: #626771;
+	  	outline: none;
+  		border: none;
+  		width: 110px;
+  		.icon_cart {
+  			vertical-align: sub;
+  			padding-right: 4px;
+  			font-size: 32px;
+			color: #BEBEBE;
+  		}
+		&:hover {
+			background-color: $main-green;
+			text-decoration: none;
+			cursor: pointer;
+			outline: none;
+			color: #fff;
+			.icon_cart {
+				color: #fff;
+			}
+		}
+	}
+}
+
+.middle_header {
+	background-color: #fff;
+	.logotype {
+		vertical-align: middle;
+  		margin-right: 36.5%;
+  	  	margin-left: 11%;
+  		margin-top: 20px;
+	}
+}
+
+.navbar-toggle {
+    border-bottom: 4px solid #BBB;
+    margin: 15px 15px 15px 25px;
+    background-color: none;
+    background-image: none;
+    position: relative;
+    padding: 6px 17px;
+    margin-top: 6px;
+    display: none;
+    float: left;
+    .icon-bar {
+        background-color: #BBB;
+        height: 4px;
+        width: 30px;
+    }
+    &:hover {
+    	border-bottom: 4px solid $bluish;
+    	border-radius: 0 !important;
+    }
+}
+
+.header_bottom {
+	display: block;
+	background-color: #fff;
+	.main_heared_menu {
+		margin-left: 7rem;
+  		margin-top: 15px;
+ 		display: table;
+  		width: 100%;
+		li {
+			border-bottom: 4px solid #d5d6dd;
+			padding: 18px 46px 18px 45px;
+			font-family: $main-font;
+			display: inline-block;
+			color: $dark-blue;
+			cursor: pointer;
+			a {
+  				letter-spacing: 0.3px;
+				text-decoration: none;
+				color: $dark-blue;
+				font-size: 21px;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+			&:hover {
+				border-bottom: 4px solid $bluish;
+				background-color: $main-blue;
+				color: #fff;
+				a {
+					color: #fff;
+				}
+			}
+		}
+		.active_main_menu {
+			position: relative;
+			&:hover {
+				ul {
+					display: block;
+				}
+			}
+		}
+		.drop_main_active {
+			background-color: $dark-blue;
+			position: absolute;
+			cursor: pointer;
+			display: none;
+			width: 272px;
+			z-index: 9;
+			left: 0px;
+			top: 61px;
+			li {
+				border-bottom: 1px dashed #fff;
+				padding: 17px 0 17px 10px;
+				font-family: $main-font;
+				font-size: 21px;
+				a {
+					color: #fff;
+					&:hover {
+      					text-decoration: none;
+      				}
+				}
+				.text_drop {
+				  	font-size: 17px;
+  					padding: 7px 44px 0px 0;
+				}
+				&:hover {
+					background-color: $bluish;
+					a {
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+			}
+			.drop_last_element {
+				border-bottom: none; 
+			}
+		}
+	}
+
+}

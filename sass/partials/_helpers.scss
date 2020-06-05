@@ -1,0 +1,115 @@
+.fr {
+	float: right;
+}
+.fl {
+	float: left;
+}
+.display {
+	display: inline-block;
+}
+.uni_icon_angle {
+	background: url("../images/icons/angle-down.png") no-repeat 50% 50%;
+	vertical-align: inherit; 
+	font-weight: bold;
+	height: 15px;
+	width: 9px;
+}
+.vertical {
+	vertical-align: bottom;
+}
+.text_bold {
+	letter-spacing: 1.5px;
+	font-weight: bold;
+}
+.contact_list {
+	background-color: #fff;
+	vertical-align: bottom;
+	position: relative;
+	width: 390px;
+	.phone_active {
+		padding: 17px 0 23px 10px;
+		font-family: $main-font;
+		border: 2px solid #ddd;
+		font-size: 21px;
+		.icon_phone {
+			background: url("../images/icons/phone_op.png") no-repeat;
+			vertical-align: bottom;
+			margin-right: 5px;
+			height: 25px;
+			width: 20px;
+		}
+		a {
+			padding: 0 1px 0 31px;
+			color: #626771;
+			&:hover {
+  				text-decoration: none;
+  			}
+		}
+		.icon_angle_down {
+			background: url("../images/icons/contact-down.png") no-repeat;
+			vertical-align: inherit;
+			font-weight: bold;
+			margin-left: 74px; 
+			height: 10px;
+			width: 15px;
+		}
+		&:hover {
+			background-color: #fff;
+			a {
+				text-decoration: none;
+				color: #fff;
+			}
+			ul {
+				display: block;
+			}
+			.icon_angle_down {
+				background: url("../images/icons/contact-up.png") no-repeat;
+			}
+		}
+	}
+	.contact_drop_list {
+		background-color: #f5f5f5;
+		position: absolute;
+		cursor: pointer;
+		display: none;
+		width: 390px;
+		z-index: 9;
+		left: 0px;
+		top: 63px;
+		li {
+			padding: 17px 0 17px 10px;
+			font-family: $main-font;
+			font-size: 21px;
+			border: none;
+			a {
+				padding: 0 1px 0 31px;
+				color: #626771;
+				&:hover {
+  					text-decoration: none;
+  				}
+			}
+			.icon_phone_active {
+				background: url("../images/icons/phone.png") no-repeat;
+			  	vertical-align: inherit;
+					margin-right: 5px;
+			  	margin-left: 5px;
+					height: 23px;
+					width: 27px;
+			}
+			.icon_skype_active {
+				background: url("../images/icons/skype.png") no-repeat;
+				vertical-align: inherit;
+			  	margin-left: 5px;
+					height: 23px;
+					width: 27px;
+			}
+			&:hover {
+				background-color: $bluish;
+				a {
+					text-decoration: none;
+					color: #fff;
+				}
+			}
+		}
+	}
+}

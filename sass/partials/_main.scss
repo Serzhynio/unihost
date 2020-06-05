@@ -1,0 +1,388 @@
+//SLIDER
+/*SLIDER*/
+.caption {
+  background: url("../images/bg-slider.png") no-repeat;
+  padding: 12px 15px 20px 33px;
+  font-family: $main-font;
+  position: absolute;
+	bottom: -120px;
+  height: 570px;
+	width: 697px;
+	left: 163px;
+  h2 {
+		letter-spacing: 2px;
+  	font-weight: bold;
+		word-spacing: 2px;
+  	font-size: 35px;
+  }
+  h3 {
+  	padding: 5px 0 5px 0px;
+		color: $hover-blue;
+  	word-spacing: 7px;
+		font-weight: bold;
+		font-size: 32px;
+  }
+  ul {
+  	padding: 2px 0 0 17px;
+  	list-style: inherit; 
+  	li {
+      margin: 8px 0 10px 0;
+  		span {
+			  letter-spacing: 0.4px;
+        padding-left: 13px;
+        word-spacing: 4px;
+			  font-size: 17px;
+  		}
+  	}
+  }
+  p {
+  	font-size: 19px;
+  	color: $bluish;
+  	padding-top: 0px;
+		word-spacing: 1px;
+  }
+  button {
+  	border-bottom: 4px solid #0b9043;
+		padding: 13px 31px 12px 31px;
+		background-color: #1bad58;
+		letter-spacing: 1px;
+		margin-left: -33px;
+  	border-right: none; 
+  	border-left: none;
+  	border-top: none;
+		margin-top: 9px;
+		font-size: 20px;
+		color: #fff;
+  }
+}
+.dark {
+	background: url("../images/bg-slider-dark.png") no-repeat;
+	h2 {
+		color: #fff !important;
+  }
+  ul {
+  	li {
+			color: $bluish !important;
+			span {
+				color: #fff;
+			}
+  	}
+  }
+  p {
+  	color: $bluish
+  }
+}
+.fotorama__wrap--css3 .fotorama__html, .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+  height: 495px !important;
+  top: 0 !important;
+}
+.fotorama__nav__frame.fotorama__active .fotorama__dot {
+  background-color: $bluish !important;
+  border-width: 3px !important;
+  height: 14px !important;
+  width: 14px !important;
+}
+.fotorama__stage {
+  height: 500px !important;
+}
+.fotorama__dot {
+  background-color: #CBCACA;
+  border: none !important;
+  border-radius: 6px;
+  position: relative;
+  display: block;
+  height: 14px;
+  width: 14px;
+  top: 10px;
+  left: 6px;
+  &:hover {
+    background-color: $bluish;
+  }
+}
+
+//BLOCK CONTENT 
+/*BLOCK CONTENT*/
+.price_block_content {
+  background-color: #fff;
+  margin: 16px 0 15px 0;
+  .first_block_content {
+    margin-left: 167px; 
+  }
+  .hosting_vps_server {
+    font-family: $main-font;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 30px;
+    color: #353c47;
+    width: 25%;
+    h3 {
+      color: $dark-blue;
+      font-size: 40px;
+      letter-spacing: 1.8px;
+      font-weight: bold;
+      padding: 2px 0 22px 0;
+    }
+    p {
+      padding-bottom: 35px;
+      font-size: 14.6px; 
+    }
+    .hosting_text {
+      padding-right: 15px;
+    }
+    .vps_text {
+      padding-right: 20px;
+      margin-left: 10px;
+    }
+    .server_text {
+      padding-right: 20px;
+      margin-left: 25px;
+    }
+    .price_text {
+      margin: 0 10px 0 5px;
+      padding-bottom: 20px;
+      .price_number {
+        letter-spacing: 2px;
+        color: $main-green;
+        font-weight: bold;
+        font-size: 34px;
+      }
+      .current_text {
+        letter-spacing: 1.6px;
+        font-size: 22px;
+      }
+    }
+    a {
+      border-bottom: 4px solid #0b9043;
+      padding: 4px 85px 8px 75px;
+      background-color: #1bad58;
+      letter-spacing: 1px;
+      border-right: none; 
+      border-left: none;
+      border-top: none;
+      margin-top: 27px;
+      font-size: 20px;
+      color: #fff;
+      &:hover {
+        border-bottom: 4px solid $bluish;
+        background-color: $hover-blue;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.feedback_block {
+  background-color: $turquoise;
+  padding: 0 35px 0 162px;
+  font-family: $main-font;
+  margin-top: 80px;
+  .slider_feedback {
+    vertical-align: top;
+    margin-right: 3.5%;
+    width: 60%;
+    h3 {
+      margin: 15px 0 37px 0;
+      letter-spacing: 0.5px;
+      font-weight: bold;
+      word-spacing: 3px;
+      font-size: 24px;
+      color: #666666;
+    }
+    .fotorama__wrap--css3 .fotorama__html, .fotorama__wrap--css3 .fotorama__stage {
+      height: 150px !important;
+    }
+    .fotorama__wrap--css3 .fotorama__html, .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+      height: 126px !important;
+      width: 610px !important;
+    }
+    .feedback {
+      margin-left: 43px !important;
+      height: 200px !important;
+    }
+  }
+  .choose_block {
+    background-color: #fff6d9;
+    font-family: $main-font;
+    padding: 13px 0 10px 25px;
+    width: 360px;
+    h3 {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 112px;
+      word-spacing: 8px;
+      font-weight: bold;
+      font-size: 24px;
+      color: #666666;
+    }
+    p {
+      display: inline-block;
+      padding-bottom: 25px;
+      vertical-align: top;
+      font-weight: bold;
+      margin-right: 85px;
+      margin-left: 10px;
+      font-size: 17px;
+      width: 217px;
+    }
+    .w_text {
+      margin-right: 80px;
+      width: 220px;
+    }
+  }
+}
+.news_block {
+  padding: 0 35px 0 163px;
+  font-family: $main-font;
+  h3 {
+    margin: 40px 0 17px 0;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    word-spacing: 5px;
+    font-size: 24px;
+    color: #666666; 
+  }
+  img {
+    vertical-align: top;
+    margin-right: 27px;
+    cursor: pointer;
+    opacity: 0.3;
+    &:hover {
+      border-bottom: 5px solid $bluish;
+      opacity: 1;
+    }
+  }
+}
+.services {
+  font-family: $main-font;
+  h3 {
+    margin: 59px 0 20px 147px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    word-spacing: 3px;
+    font-size: 24px;
+    color: #666666;
+  }
+  .services_description {
+    background-color: $turquoise;
+    padding: 0 0 0 147px;
+    .btn_serv {
+      width: 263px;
+      border-bottom: 4px solid #0b9043;
+      padding: 8px 31px 8px 31px;
+      background-color: #1bad58;
+      vertical-align: middle;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-right: 30px;
+      border-right: none; 
+      border-left: none;
+      border-top: none;
+      font-size: 20px;
+      color: #fff;
+      &:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    p {
+      vertical-align: middle;
+      margin: 20px 0 20px 0;
+      font-size: 14px;
+      color: #666666;
+      width: 68%;
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+  .color_block {
+    background-color: #fff !important;
+  }
+  .pad {
+    margin-top: 6px !important;
+  }
+  #slider1 { 
+    padding: 0 105px 0 120px;   
+    position: relative; 
+    margin: 30px 0 0; 
+    overflow: hidden; 
+    height: 1%; 
+    .viewport { 
+      position: relative; 
+      overflow: hidden; 
+      height: 100px; 
+    }
+    .buttons {
+      text-decoration: none;
+      border-radius: 35px;
+      position: absolute;
+      text-align: center;
+      font-weight: bold;
+      line-height: 50px;
+      background: #fff;
+      font-size: 43px;
+      display: block;
+      color: #f5f4f4;
+      height: 55px;
+      width: 55px;
+      top: 26%;
+      left: 0;
+      &:hover {
+        color: $hover-blue;
+        background: #fff;
+      }
+    }
+    .next {
+      right: 40px;
+      left: auto;
+      top: 21%;
+    }
+    .disable { 
+      visibility: hidden; 
+    }
+    .overview { 
+      position: absolute; 
+      list-style: none; 
+      width: 240px; 
+      padding: 0; 
+      margin: 0; 
+      left: 0; 
+      top: 0; 
+    }
+    .overview {
+      li { 
+        margin: 40px 32px 0 0; 
+        cursor: pointer;
+        height: 60px;  
+        width: 172px;
+        padding: 1px; 
+        float: left; 
+        .paypal {
+          &:hover {
+            background: url('../images/paypal.png') no-repeat;
+          }
+        }
+        .bitcoin {
+          &:hover {
+            background: url('../images/bitcoin.png') no-repeat;
+          }
+        }
+        .webmoney {
+          &:hover {
+            background: url('../images/web_money.png') no-repeat;
+          }
+        }
+        .perfect {
+          &:hover {
+            background: url('../images/perfect-money.png') no-repeat;
+          }
+        }
+        .okpal {
+          &:hover {
+            background: url('../images/okpay.png') no-repeat;
+          }
+        }
+      }
+    } 
+  }
+}
